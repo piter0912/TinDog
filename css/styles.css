@@ -1,28 +1,59 @@
-#title {
-   background-color: #ff4c68;
-   color: #fff;
-}
-
 body {
    font-family: "Montserrat";
+   text-align: center;
 }
 
-h1 {
+h1, h2, h3, h4, h5, h6 {
+   font-family: "Montserrat";
+   font-weight: 900;
+}
+
+p {
+   color: #8f8f8f;
+}
+
+.price-text {
+   font-size: 3rem;
+   line-height: 1.5;
+}
+
+.testimonial-text {
+   font-size: 3rem;
+   line-height: 1.5;
+}
+
+.section-heading {
+   font-size: 3rem;
+   line-height: 1.5;
+}
+
+.big-heading {
    font-family: 'Montserrat', sans-serif;
    font-weight: 900;
    font-size: 3.5rem;
    line-height: 1.5;
 }
 
-h2 {
-   font-family: "Montserrat";
-   font-weight: 900;
-   font-size: 3rem;
-   line-height: 1.5;
+#title .container-fluid {
+   padding: 3% 15% 7%;
+   text-align: left;
+}
+
+.colored-section {
+   background-color: #ff4c68;
+   color: #fff;
+}
+
+.white-section {
+   background-color: #fff;
+}
+
+.heature-title {
+   font-size: 1.5rem;
 }
 
 .container-fluid{
-   padding: 3% 15% 7%;
+   padding: 7% 15%;
 }
 
 /* Navigation Bar */
@@ -63,24 +94,15 @@ h2 {
 /* Feature section */
 
 #features {
-   padding: 7% 15%;
    background-color: #fff;
    position: relative;
 }
 
 .feature-box {
-   text-align: center;
    padding: 5%;
 }
 
-h3 {
-   font-family: "Montserrat";
-   font-weight: 900;
-}
 
-p {
-   color: #8f8f8f;
-}
 
 .icon {
    color: #ef8172;
@@ -93,9 +115,7 @@ p {
 
 /* testimonials */
 #testimonials {
-   text-align: center;
    background-color: #ff4c68;
-   color: #fff;
 }
 
 .testimonial-image {
@@ -105,9 +125,6 @@ p {
 }
 
 #press {
-   background-color: #ff4c68;
-   color: #fff;
-   text-align: center;
    padding-bottom: 3%;
 }
 
@@ -116,14 +133,9 @@ p {
    margin: 20px 20px 20px 50px;
 }
 
-.carousel-item {
-   padding: 7% 15%;
-}
-
 /* pricing section */
 #pricing {
    padding: 100px;
-   text-align: center;
 }
 
 .pricing-column  {
@@ -131,13 +143,6 @@ p {
 }
 
 /* cta section */
-
-#cta {
-    background-color: #ff4c68;
-    color: #fff;
-    padding: 7% 15%;
-    text-align: center;
-}
 
 .cta-heading {
    font-family: "Montserrat";
@@ -148,7 +153,6 @@ p {
 
 #footer {
    margin: 7% 15%;
-   text-align: center;
 }
 
 .social-icon {
